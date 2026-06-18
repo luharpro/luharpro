@@ -1,0 +1,81 @@
+name: Generate Badges
+
+on:
+  workflow_dispatch:
+
+jobs:
+  generate-badges:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configure Git
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+
+      - name: Generate PRs and Merge
+        run: |
+          for i in {1..16}
+          do
+            echo "=== Processing Pull Request #$i ==="
+            
+            # Create a new branch from main
+            git checkout main
+            git pull origin main || true
+            
+            BRANCH_NAME="badge-feature-$i"
+            git checkout -b $BRANCH_NAME
+            
+            # Make a change
+            echo "Badge collection file #$i" > badge_$i.txt
+            git add badge_$i.txt
+            
+            # Commit with co-author signature for Pair Extraordinaire
+            git commit -m "Add badge file $i
+
+            Co-authored-by: Octocat <octocat@github.com>"
+            
+            # Push branch
+            git push origin $BRANCH_NAME
+            
+            # Create Pull Request
+            PR_RESPONSE=$(curl -s -X POST \
+              -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+              -H "Accept: application/vnd.github+json" \
+              https://api.github.com/repos/${{ github.repository }}/pulls \
+              -d "{\"title\":\"Automated Badge Pull Request #$i\",\"head\":\"$BRANCH_NAME\",\"base\":\"main\"}")
+            
+            PR_NUMBER=$(echo "$PR_RESPONSE" | jq -r '.number')
+            
+            if [ "$PR_NUMBER" = "null" ] || [ -z "$PR_NUMBER" ]; then
+              echo "Error creating PR:"
+              echo "$PR_RESPONSE"
+              exit 1
+            fi
+            
+            echo "Successfully created PR #$PR_NUMBER"
+            
+            # Merge Pull Request immediately (YOLO + Quickdraw)
+            MERGE_RESPONSE=$(curl -s -X PUT \
+              -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+              -H "Accept: application/vnd.github+json" \
+              https://api.github.com/repos/${{ github.repository }}/pulls/$PR_NUMBER/merge \
+              -d '{"merge_method":"merge"}')
+              
+            echo "Merge Response: $MERGE_RESPONSE"
+            
+            # Switch back to main and delete remote branch to keep repo clean
+            git checkout main
+            git push origin --delete $BRANCH_NAME
+            
+            # Wait 2 seconds between PRs to ensure proper API processing
+            sleep 2
+          done

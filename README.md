@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:30363d&height=220&section=header&text=Rahul%20J%20A&fontSize=60&fontColor=58a6ff&fontAlignY=35&desc=B.Tech%20CSE%20(AI%20%26%20ML)%20%7C%20Full%20Stack%20Developer%20%7C%20Mod%20Creator&descSize=16&descColor=8b949e&descAlignY=55&animation=fadeIn" width="100%"/>
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:30363d&height=220&section=header&text=Rahul%20J%20A&fontSize=60&fontColor=58a6ff&fontAlignY=35&desc=B.Tech%20CSE%20(AI%20%26%20ML)%20%7C%20Full%20Stack%20Developer%20%7C%20Mod%20Creator&descSize=16&descColor=8b949e&descAlignY=55&animation=fadeIn)
+
+<br/>
 
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=650&height=100&lines=Full+Stack+Developer+%7C+MERN+Stack+Learner+%F0%9F%9A%80;Minecraft+Fabric+Mod+Developer+%F0%9F%8E%AE;Exploring+AI%2C+Web+Dev+%26+Game+Modding+%E2%9A%A1" alt="Typing SVG" /></a>
 
@@ -99,18 +101,6 @@ fun_fact: I build Minecraft mods and creative software projects
 
 </div>
 
----
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=Rahul-J-A&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=10" width="90%"/>
-
-</div>
-
----
-
 ## 🎯 What I'm Working On
 
 ```text
@@ -127,6 +117,8 @@ Blender               - 3D modeling & animation
 
 <div align="center">
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Rahul%20J%20A-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rahul-j-a-019590278/)
+&nbsp;&nbsp;
 [![GitHub](https://img.shields.io/badge/GitHub-Rahul--J--A-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Rahul-J-A)
 
 </div>
@@ -143,6 +135,6 @@ Blender               - 3D modeling & animation
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:30363d&height=120&section=footer" width="100%"/>
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:30363d&height=120&section=footer)
 
 </div>

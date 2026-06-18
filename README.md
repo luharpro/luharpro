@@ -1,10 +1,10 @@
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:30363d&height=220&section=header&text=Rahul%20J%20A&fontSize=60&fontColor=58a6ff&fontAlignY=35&desc=B.Tech%20CSE%20(AI%20%26%20ML)%20%7C%20Full%20Stack%20Developer%20%7C%20Mod%20Creator&descSize=16&descColor=8b949e&descAlignY=55&animation=fadeIn)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:30363d&height=220&section=header&text=Rahul%20J%20A&fontSize=60&fontColor=58a6ff&fontAlignY=35&desc=B.Tech%20CSE%20(AI%20%26%20ML)%20%7C%20Full%20Stack%20Developer&descSize=16&descColor=8b949e&descAlignY=55&animation=fadeIn)
 
 <br/>
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=650&height=100&lines=Full+Stack+Developer+%7C+MERN+Stack+Learner+%F0%9F%9A%80;Minecraft+Fabric+Mod+Developer+%F0%9F%8E%AE;Exploring+AI%2C+Web+Dev+%26+Game+Modding+%E2%9A%A1" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=650&height=100&lines=Full+Stack+Developer+%7C+MERN+Stack+Learner+%F0%9F%9A%80;Exploring+AI%2C+Web+Dev+%26+Automation+%E2%9A%A1" alt="Typing SVG" /></a>
 
 </div>
 
@@ -16,17 +16,16 @@
 name: Rahul J A
 role: B.Tech CSE (AI & ML) Student
 location: Thiruvananthapuram, Kerala, India
-focus: Full Stack Development | AI/ML | Game Modding
-currently_learning: MERN Stack, Java, Blender, Fabric Modding
-fun_fact: I build Minecraft mods and creative software projects
+focus: Full Stack Development | AI/ML
+currently_learning: MERN Stack, Java, Blender
+fun_fact: I build creative software and interactive web applications
 ```
 
 - 🎓 Pursuing **B.Tech in Computer Science (AI & ML)**
 - 🏥 Developed **HALE** - a Hospital Management System
-- 🎮 Creating **Minecraft Fabric Mods** with custom textures & PBR
 - 🌱 Currently learning **MERN Stack**, **Java**, and **Blender**
 - 🤖 Passionate about **Robotics**, **AI/ML**, and **Automation**
-- 🎬 Interested in **Animation**, **Game Development**, and **3D Modeling**
+- 🎬 Interested in **Animation**, **3D Modeling**, and **Creative Software**
 
 ---
 
@@ -55,11 +54,6 @@ fun_fact: I build Minecraft mods and creative software projects
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 ![Blender](https://img.shields.io/badge/Blender-F5792A?style=for-the-badge&logo=blender&logoColor=white)
-
-### Game Dev & Modding
-
-![Minecraft](https://img.shields.io/badge/Minecraft-62B47A?style=for-the-badge&logo=minecraft&logoColor=white)
-![Fabric](https://img.shields.io/badge/Fabric_Modding-DBD0B4?style=for-the-badge&logoColor=black)
 
 </div>
 
@@ -105,7 +99,6 @@ fun_fact: I build Minecraft mods and creative software projects
 
 ```text
 HALE HMS              - Hospital Management System (Python)
-Minecraft Mods        - Fabric mods with custom PBR textures
 MERN Stack            - Learning full-stack web development
 AI/ML Projects        - Exploring machine learning & computer vision
 Blender               - 3D modeling & animation
